@@ -1,0 +1,33 @@
+.input {
+  position: relative;
+  margin-bottom: var(--gap-l);
+}
+
+.input__item {
+  padding-left: var(--gap-l);
+  width: 100%;
+  height: 56px;
+  border: 2px solid transparent;
+  border-radius: 25px 100px 100px 25px;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+
+.input__item:hover {
+  border-color: var(--blue);
+}
+
+.input__item:focus {
+  border-color: var(--blue);
+}
+
+.input__item::placeholder {
+  font-size: var(--font-size-l);
+}
+
+.input__append {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

@@ -1,0 +1,27 @@
+.title {
+  padding-top: var(--gap-xl);
+  font-weight: var(--weight-medium);
+}
+
+.title__large {
+  font-size: var(--font-size-xxxl);
+  text-align: center;
+}
+
+.title__medium {
+  margin-top: 48px;
+  margin-bottom: var(--gap-xl);
+  font-size: var(--font-size-xxl);
+  padding: 0 var(--gap-xl);
+}
+
+@media (max-width: 560px) {
+  .title__large {
+    font-size: 32px;
+  }
+
+  .title__medium {
+    font-size: var(--font-size-xl);
+    padding: 0 var(--gap-l);
+  }
+}

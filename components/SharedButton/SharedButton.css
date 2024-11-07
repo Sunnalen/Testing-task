@@ -1,0 +1,30 @@
+.btn {
+  width: 163px;
+  height: 56px;
+  background-color: var(--blue);
+  border: transparent;
+  border-radius: 100px;
+  color: white;
+  font-size: var(--font-size-l);
+  font-weight: var(--weight-regular);
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2858c2;
+}
+
+.btn:active {
+  background-color: #1f4598;
+}
+
+.btn__icon {
+font-size: var(--font-size-xxl);
+}
+
+@media (max-width: 560px) {
+.btn {
+  width: 56px;
+  height: 56px;
+}
+}

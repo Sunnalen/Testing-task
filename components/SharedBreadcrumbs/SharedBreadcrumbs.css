@@ -1,0 +1,9 @@
+.bread__crumbs {
+  margin-bottom: var(--gap-xl);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--font-size-s);
+  font-weight: var(--weight-regular);
+  color: var(--gray);
+}

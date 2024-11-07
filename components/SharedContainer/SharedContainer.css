@@ -1,0 +1,15 @@
+.shared__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1050px;
+  width: 100%;
+  padding: 48px 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 560px) {
+  .shared__container {
+    padding: var(--gap-xl) 0;
+  }
+}

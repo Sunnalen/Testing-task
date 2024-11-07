@@ -1,0 +1,24 @@
+:root {
+  --black: #000000;
+  --gray: #999999;
+  --light-gray:#F5F5F8;
+  --dark-gray:#666666;
+
+  --ligt-blue: #5A8CF1;
+  --blue: #316FEE;
+
+  --font-size-s: 13px;
+  --font-size-m: 14px;
+  --font-size-l: 16px;
+  --font-size-xl:20px;
+  --font-size-xxl:24px;
+  --font-size-xxxl: 56px;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+
+  --gap-s: 8px;
+  --gap-m: 10px;
+  --gap-l: 16px;
+  --gap-xl: 24px;
+}
